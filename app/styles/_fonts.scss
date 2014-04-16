@@ -20,8 +20,15 @@
 }
 
 @font-face{
-  font-family: 'Roboto-Light';
+  font-family: 'OpenSans-Light';
   src: url('fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Roboto-Regular';
+  src: url('fonts/Roboto-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
