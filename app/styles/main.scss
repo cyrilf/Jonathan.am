@@ -130,6 +130,27 @@ section {
       font-family: 'OpenSans-Light';
       font-size: 1.1em;
       color: #6b6b6b;
+
+      i {
+        display: inline-block;
+        position: relative;
+        width: 27px;
+        height: 27px;
+        background: #f54c4f;
+        color: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &::before {
+          display: block;
+          position: absolute;
+          content: '+';
+          top: -7px;
+          left: 5px;
+          font-size: 28px;
+          font-style: normal;
+        }
+      }
     }
     p:last-child {
       margin-bottom: 0;
